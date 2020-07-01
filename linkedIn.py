@@ -8,6 +8,7 @@ password=input("Enter your Password:")
 PATH = "D:\PythonC\my_stuff\webdrivers\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
+//any url of linkedIn post from where the emails are to be fetched 
 driver.get("https://www.linkedin.com/posts/matchai_covid19-hiring-tech-activity-6652411320551464960-Gh_1")
 
 button=driver.find_element_by_xpath("//*[@class='comments__see-more']")
